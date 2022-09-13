@@ -21,7 +21,7 @@ async function main(args: string[])
 {
     var appID = "";
     var branch = "";
-    var documentname = ""
+    var documentname = ""; 
 
     if (args.length < 1)
     {
@@ -77,7 +77,7 @@ async function main(args: string[])
         catch (e)
         {
             console.log(`Failed to get existing working copy ${wcID}: ${e}`);
-            wcID = ""
+            wcID = "";
         }
     }
 
